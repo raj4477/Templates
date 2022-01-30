@@ -21,9 +21,9 @@ List<model> Items = [
 
 List<model> filteredItem = [];   /// List of item to be filtered after searching
 
-  //  void main() {
-  //   runApp(SearchBoxPage());
-  // }
+   void main() {
+    runApp(SearchBoxPage());
+  }
 
 class SearchBoxPage extends StatelessWidget {
   @override
@@ -121,13 +121,7 @@ class _HomePagesState extends State<HomePages> {
                 ),
               ),
             ),
-            // Container(
-            //   height: size.height * 0.1,
-            //   width: size.width * 0.8,
-            //   color: Colors.blueAccent,
-            //   alignment: Alignment.center,
-            //   child: Text(searchText),
-            // ),
+            
             Expanded(
               // height: size.height * 0.72,
               // width: size.width,
